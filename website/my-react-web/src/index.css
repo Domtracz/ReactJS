@@ -26,7 +26,20 @@
   font-family: Arial, sans-serif;
   color: hsl(0, 0%, 30%);
 }
+
 /*
+
+//external
+.button{
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
