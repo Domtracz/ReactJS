@@ -1,6 +1,9 @@
+//external,module(seperate folder and module component),inline(below best for little styling)
 
 
 function Button(){
+  
+  //inline
   const styles =
   { 
       backgroundColor: "hsl(200, 100%, 50%)",
