@@ -14,7 +14,21 @@ function Button(){
       cursor: "pointer",
 
   }
-
-  return(<button style={styles}>Click me!</button>);
+  //let count = 0;
+  const handleClick = (e) => e.target.textContent = "Ouch!";
+/*  
+  {
+    if(count<3){
+      count++;
+      console.log(`${name} you clicked me ${count} time/s`);
+    }
+    else{
+      console.log(`${name} stop clicking me`);
+    }
+  };
+  
+  const handleClick2 = (name) => console.log(`${name} stop clicking me`)
+*/
+  return(<button style={styles} onDoubleClick={(e) => handleClick(e)}>Click me!</button>);
 }
 export default Button
