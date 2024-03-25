@@ -14,14 +14,17 @@
 
 //import List from "./List";
 
-import ProfilePicture from "./ProfilePicture";
+//import ProfilePicture from "./ProfilePicture";
+
+import MyComponent from "./MyComponent";
+import Counter from "./Counter.jsx";
 
 function App() {
   
   return(
-    <>
-    <ProfilePicture/>
-    </>
+    
+    <Counter/>
+
   );
 }
 
