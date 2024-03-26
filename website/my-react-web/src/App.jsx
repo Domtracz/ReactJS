@@ -2,6 +2,7 @@
 //import Footer from "./Footer";
 //import Food from "./Food";
 
+
 //import Button from "./Button";
 
 //import Card from "./Card";
@@ -16,15 +17,16 @@
 
 //import ProfilePicture from "./ProfilePicture";
 
-import MyComponent from "./MyComponent";
+//import MyComponent from "./MyComponent";
 //import Counter from "./Counter.jsx";
+
+import ColorPicker from "./ColorPicker";
 
 function App() {
   
   return(
     
-    <MyComponent/>
-
+    <ColorPicker/>
   );
 }
 
