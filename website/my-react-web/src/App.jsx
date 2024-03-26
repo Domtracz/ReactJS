@@ -1,11 +1,11 @@
 
-import MyComponentUF from "./MyComponentUF";
+import UpdateArray from "./UpdateArray";
 
 function App() {
   
   return(
     
-    <MyComponentUF/>
+    <UpdateArray/>
   );
 }
 
