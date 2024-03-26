@@ -1,11 +1,11 @@
 
-import UpdateArrayObjects from "./UpdateArrayObjects";
+import ToDoList from "./ToDoList";
+
 
 function App() {
   
   return(
-    
-    <UpdateArrayObjects/>
+    <ToDoList/>
   );
 }
 
