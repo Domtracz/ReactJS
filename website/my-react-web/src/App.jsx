@@ -1,11 +1,11 @@
 
-import UpdateArray from "./UpdateArray";
+import UpdateArrayObjects from "./UpdateArrayObjects";
 
 function App() {
   
   return(
     
-    <UpdateArray/>
+    <UpdateArrayObjects/>
   );
 }
 
