@@ -1,11 +1,10 @@
-import UseEffectMethod from "./UseEffectMethod";
-
+import DigitalClock from "./DigitalClock";
 
 
 function App() {
   
   return(
-    <UseEffectMethod/>
+    <DigitalClock/>
   );
 }
 
