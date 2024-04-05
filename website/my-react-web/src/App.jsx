@@ -1,11 +1,11 @@
+import UseEffectMethod from "./UseEffectMethod";
 
-import ToDoList from "./ToDoList";
 
 
 function App() {
   
   return(
-    <ToDoList/>
+    <UseEffectMethod/>
   );
 }
 
