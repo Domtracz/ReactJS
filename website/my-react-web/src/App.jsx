@@ -1,11 +1,8 @@
-import DigitalClock from "./DigitalClock";
-
+import ComponentA from "./useContext/ComponentA";
 
 function App() {
   
-  return(
-    <DigitalClock/>
-  );
+  return(<ComponentA/>);
 }
 
 
